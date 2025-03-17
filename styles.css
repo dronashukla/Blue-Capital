@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #003366; /* Deep blue for the header */
+  background-color: #003366;
   color: #fff;
   padding: 20px;
   text-align: center;
@@ -29,13 +29,13 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; /* Space between image and year info */
+  gap: 20px;
 }
 
 #equity-curve img {
-  max-width: 70%; /* Adjust image size */
+  max-width: 70%;
   height: auto;
-  border: 1px solid #007aff; /* Subtle blue border */
+  border: 1px solid #007aff;
 }
 
 .year-info {
@@ -48,11 +48,11 @@ footer {
   padding: 20px;
   text-align: center;
   font-size: 0.9em;
-  color: #007aff; /* Light blue for footer text */
+  color: #007aff;
 }
 
 a {
-  color: #007aff; /* Light blue for links */
+  color: #007aff;
   text-decoration: none;
 }
 
@@ -68,9 +68,9 @@ a:hover {
     padding: 20px;
   }
   .equity-container {
-    flex-direction: column; /* Stack image and text on smaller screens */
+    flex-direction: column;
   }
   #equity-curve img {
-    max-width: 100%; /* Full width on mobile */
+    max-width: 100%;
   }
 }
